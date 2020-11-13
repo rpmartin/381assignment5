@@ -22,17 +22,17 @@ also prohibited from sharing any information about the assignment with
 others. I affirm that I will not give or receive any aid on this assignment 
 and that all work will be my own. **put your name here**
 
-Recall that in our common pool resource game, groups of $n$ (typically
+Recall that in our common pool resource game, groups of $N$ (typically
 3) players share a resource where the size, $f$ (fish), is not
-known. Each group member $j \in \{1...n\}$ attempts to catch $c_j$
+known. Each group member $j \in \{1...N\}$ attempts to catch $c_j$
 units of fish.  Decisions are made independently and anonymously. If
 $(c_1+c_2+c_3<f)$, there is enough fish and each group member receives profit equal to their attempted catch; Otherwise the resource is destroyed and all group members get nothing. For all group sizes the number of fish is a random variable drawn from a uniform distribution
-over support $[0,20n]$. Expected profits for individual $j$ are equal
+over support $[0,20N]$. Expected profits for individual $j$ are equal
 to their attempted catch $c_j$ times the probability that there are enough fish $P(c_1+c_2+c_3<f)$
 
 With a bit of a stretch this game would also apply to the issue of fossil fuel extraction. In this case, the threat is not the extinction of some species we have over-harvested, but our own extinction. A feature of both interpretations is an unknown tipping point beyond which we can not recover. Regarding climate change, a tipping point may be the result of positive feedback loops such as methane being released from permafrost as it thaws, and a lowering of the planet's Albedo as we lose snow and ice cover.  In both cases if extraction stays below the tipping point the species in question will survive, otherwise extinction. The temptation to extract more comes from the fact that our material well being is increasing in extraction, as long as we stay below the tipping point.
 
-The treatments determined how subjects were rematched between rounds.  In the `not` treatment subjects played all 20 rounds with the same group.  In the `randomly` treatment subjects were randomly rematched for each round.  Finally in the `assortatively` treatment subjects played each round with players who had made similar catch request in the previous round.  Higher payoffs can be sustained in common pool resource games if behaviour can be coordinated so that the total catch size $C^{\star\star}=10\times n$.  These treatments were designed to influence how easy it would be to coordinate behaviour. 
+The treatments determined how subjects were rematched between rounds.  In the `not` treatment subjects played all 20 rounds with the same group.  In the `randomly` treatment subjects were randomly rematched for each round.  Finally in the `assortatively` treatment subjects played each round with players who had made similar catch request in the previous round.  Higher payoffs can be sustained in common pool resource games if behaviour can be coordinated so that the total catch size $C^{\star\star}=10\times N$.  These treatments were designed to influence how easy it would be to coordinate behaviour. 
 
 # (10 marks)
 
