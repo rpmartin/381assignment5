@@ -39,7 +39,7 @@ Once you have everything installed, here is how you get started on assignment 5.
 
 15) For written answers, simply write words under the questions in the assignment5.Rmd file.
 
-16) For graphs, you create and name the graph in your assignment5.R file, in much the same way I have done for one of the plots already.  Check frequently to make sure your assignment5.R file still runs without errors.  Only once you have made sure there are no errrors in assignment5.R save it to DISK. (your Rmd file can't utilize what isn't saved to disk e.g. the unsaved code in your editor or even objects in your current environment.)
+16) For graphs, you create and name the graph in your assignment5.R file, *in much the same way you have done for the previous assignments. Note that in this assignment the heatmap plot can not be embedded in the .Rmd file by name, so the code to create it is in the .Rmd file.*  Check frequently to make sure your assignment5.R file still runs without errors.  Only once you have made sure there are no errrors in assignment5.R save it to DISK. (your Rmd file can't utilize what isn't saved to disk e.g. the unsaved code in your editor or even objects in your current environment.)
 
 17) Embed the objects in the assignment5.Rmd file by name, and knit to see the results.
 
