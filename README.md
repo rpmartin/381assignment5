@@ -11,7 +11,7 @@ Once you have everything installed, here is how you get started on assignment 5.
 
 1) go to  https://github.com/rpmartin/381assignment5
 
-2) click on the green button labelled code.
+2) click on the green button labeled code.
 
 3) click on the clipboard icon to copy address to clipboard (the icon is to the right of the text box.)
 
@@ -27,9 +27,9 @@ Once you have everything installed, here is how you get started on assignment 5.
 
 9) Open file assignment5.R
 
-10) Ensure that your cursor is at the top of the file assignment5.R (the file is open in the top-left box in Rstudio).  Run the code by repeatedly hitting both control and enter.  By doing so you step through the code line by line, and in the bottom left panel you see the results of each line of code.  The last line of code creates your first graph, which should show up in the bottom right panel.
+10) Ensure that your cursor is at the top of the file assignment5.R (the file is open in the top-left box in Rstudio).  Run the code by repeatedly hitting both control and enter. By doing so you step through the code line by line, and in the bottom left panel you see the results of each line of code.  *you will probably need to install libraries "gplots" and "viridis" with the commands `install.packages("gplots")` and `install.packages("viridis")`. DO NOT add these install.packages() to your R script.  Installing packages is a one time event, whereas every time you knit your .Rmd file your .R file is run.*
 
-11) There should be no errors (yet ;) when you run the code of assignment5.R.  If there are errors, do not proceed further!  Get in touch either by email or on the message board.   Only once you have checked that there are no errors in your assignment5.R file should you open up assignment5.Rmd file.
+11) There should be no errors (yet ;) when you run the code of assignment5.R.  If there are errors, do not proceed further!  Get in touch either by email or on the message board. Only once you have checked that there are no errors in your assignment5.R file should you open up assignment5.Rmd file.
 
 12) In the assignment5.Rmd file enter your name and student ID at the top, and "sign" your academic integrity statement (replace name here with your name).
 
