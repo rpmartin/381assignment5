@@ -1,46 +1,61 @@
-# 381assignment5
+# Econ 381 assignment 5
 
+The following instructions assume that: 
 
-Instructions on the installation of R, Rstudio, etc can be found here:
+1) you have, following instructions here: https://github.com/rpmartin/Rinstall, either: 
+  - installed R, Rstudio, tidyverse, Rmarkdown, and git locally (on your computer) OR
+  - signed up for an Rstudio cloud account and installed the tidyverse.
 
-https://github.com/rpmartin/Rinstall
+2) I have uploaded the data and the assignment5.R and assignment5.Rmd files (you should see them listed above. If not, they will be uploaded shortly after the experiment is completed.)
 
-Once you have everything installed, here is how you get started on assignment 5.
+## Steps:
 
-1) go to  https://github.com/rpmartin/381assignment5
+Click on the green button labeled code. (above)
 
-2) click on the green button labeled code.
+Click on the clipboard icon to copy address to clipboard (the icon is to the right of the text box.)
 
-3) click on the clipboard icon to copy address to clipboard (the icon is to the right of the text box.)
+open Rstudio either locally or on the cloud.
 
-4) open Rstudio.
+click on File in the top menu bar, then New Project, then Version Control, then Git.
 
-5) click on File in the top menu bar, then New Project, then Version Control, then Git.
+Where it asks for Repository URL paste (control V) from your clipboard (this should be what you copied from above)
 
-6) Where it asks for Repository URL paste (control V) from your clipboard (this should be what you copied from step 3)
+R chooses the name of the folder in which you will be working, but you should choose where you want this folder saved.
 
-7) R chooses the name of the folder in which you will be working, but you should choose where you want this folder saved.
+Click Create Project and Rstudio will start in this folder, and all the files you need have been cloned into this folder from github.
 
-8) Click Create Project and Rstudio will start in this folder, and all the files you need have been cloned into this folder from github.
+Open file assignment5.R
 
-9) Open file assignment5.R
+Ensure that your cursor is at the top of the file assignment5.R (the file is open in the top-left box in Rstudio). 
+Run the code by repeatedly hitting both control and enter. 
+By doing so you step through the code line by line, and in the bottom left panel you see the results of each line of code. 
+The last line of code creates your first graph, which should show up in the bottom right panel.
 
-10) Ensure that your cursor is at the top of the file assignment5.R (the file is open in the top-left box in Rstudio).  Run the code by repeatedly hitting both control and enter. By doing so you step through the code line by line, and in the bottom left panel you see the results of each line of code.  *you will probably need to install libraries "gplots" and "viridis" with the commands `install.packages("gplots")` and `install.packages("viridis")`. DO NOT add these install.packages() to your R script.  Installing packages is a one time event, whereas every time you knit your .Rmd file your .R file is run.*
+There should be no errors (yet ;) when you run the code of assignment5.R. If there are errors, do not proceed further! 
+Get in touch either by email or on the message board. 
+Only once you have checked that there are no errors in your assignment5.R file should you open up assignment5.Rmd file.
 
-11) There should be no errors (yet ;) when you run the code of assignment5.R.  If there are errors, do not proceed further!  Get in touch either by email or on the message board. Only once you have checked that there are no errors in your assignment5.R file should you open up assignment5.Rmd file.
+In the assignment5.Rmd file set author to your first initial and last name, and “sign” your academic integrity statement (replace name here with your first initial and last name).
 
-12) In the assignment5.Rmd file enter your name and student ID at the top, and "sign" your academic integrity statement (replace name here with your name).
+Knit your assignment5.Rmd file by hitting the knit button (there is a ball of yarn with a needle sticking out of it beside the word knit). 
+This is called knitting because we are “weaving” together R code (that produces graphs and tables) and prose.
 
-13) Knit your assignment5.Rmd file by hitting the knit button (there is a ball of yarn with a needle sticking out of it beside the word knit).  This is called knitting because we are "weaving" together R code (that produces graphs and tables) and prose.
+A new window should open with your assignment.
 
-14) A new window should open with your assignment, including one of "your" answers... you are on your way!
+At this point you can start writing code (incrementally) in your .R file to create the plots you will eventually reference by name in your .Rmd file.
 
-15) For written answers, simply write words under the questions in the assignment5.Rmd file.
+For the written answers you include your prose in the .Rmd file.
 
-16) For graphs, you create and name the graph in your assignment5.R file, *in much the same way you have done for the previous assignments. Note that in this assignment the heatmap plot can not be embedded in the .Rmd file by name, so the code to create it is in the .Rmd file.*  Check frequently to make sure your assignment5.R file still runs without errors.  Only once you have made sure there are no errrors in assignment5.R save it to DISK. (your Rmd file can't utilize what isn't saved to disk e.g. the unsaved code in your editor or even objects in your current environment.)
+## Assignment Submission:
 
-17) Embed the objects in the assignment5.Rmd file by name, and knit to see the results.
+Unfortunately Brightspace strips images out of html files, so you will not be able to submit your knitted html file to brightspace.  Instead,
 
-Let me know if you have any issues, I am here to help!  Cheers,
+* Assignment submissions to Brightspace will be your 
+1) assignment5.R file
+2) assignment5.Rmd file
+3) a link a.k.a. URL for your assignment5.html file.
 
-Rich
+* The easiest way to host your assignment5.html file on the web is to click the `publish` button on Rstudio's html viewer (the html viewer opens when you successfully knit your output.) 
+
+* Choose Rpubs and setup a free account: Note that the *content* that you publish on RPubs is publicly viewable: probably best to limit the amount of personal information you provide i.e. do **not** include your student ID, and do **not** include your full name i.e. in your .Rmd file set author to R. Martin (good) rather than Richard Martin:  V00123456 (bad).
+
