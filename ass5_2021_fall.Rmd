@@ -114,8 +114,7 @@ $\left[\alpha e_1+\frac{1-\alpha}{3}(e_1+e_2+e_3)\right]$.  What do you get if y
 **Describe the results from the plot above.**
 
 # (10 marks)
-
-**Using dataframe `subjects`, create a scatterplot of `mean_choice` vs. `mean_profit`.  Use `geom_smooth()` to emphasize the relationship, and `facet_wrap()` the plot by variable `alpha`.**
+**Using dataframe `subjects`, create a scatterplot of `mean_choice` vs. `mean_profit`.  Use `geom_smooth()` with `method="lm"` and `formula=y ~ poly(x, 2)` to emphasize the quadratic relationship, and `facet_wrap()` the plot by variable `alpha`.**
 
 ```{r, echo=FALSE}
 #second_plot
