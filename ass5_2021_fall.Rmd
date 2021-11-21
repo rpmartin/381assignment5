@@ -79,7 +79,7 @@ $\left[\alpha e_1+\frac{1-\alpha}{3}(e_1+e_2+e_3)\right]$.  What do you get if y
 
 # (10 marks)
 
-**Create a new dataframe called `subjects` using `mydf` THEN `group_by()` variable `oneid` THEN `summarize()` creating variables `mean_profit` by taking the `mean()` of `profit` and `mean_choice` by taking the `mean()` of choice THEN  `filter` keeping only the rows where it is not true that `mean_profit` `is.na()` THEN `ungroup()` THEN `mutate()` creating variable `top_half` by testing `mean_profit>median(mean_profit)`. Include a copy of your code below: note `eval=FALSE`, so the code must be in your .R file as well.** 
+**Create a new dataframe called `subjects` using `mydf` THEN `group_by()` variables `oneid` and `alpha` THEN `summarize()` creating variables `mean_profit` by taking the `mean()` of `profit` and `mean_choice` by taking the `mean()` of choice THEN  `filter` keeping only the rows where it is not true that `mean_profit` `is.na()` THEN `ungroup()` THEN `mutate()` creating variable `top_half` by testing `mean_profit>median(mean_profit)`. Include a copy of your code below: note `eval=FALSE`, so the code must be in your .R file as well.** 
 
 ```{r, echo=TRUE, eval=FALSE}
 
